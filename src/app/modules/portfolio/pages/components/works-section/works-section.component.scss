@@ -1,0 +1,65 @@
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+.works-section-outer {
+  background-color: white;
+  color: rgb(47, 53, 66);
+  height: auto;
+  padding: 100px 0;
+
+  .works-section-inner{
+    .left {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+
+    h1.title {
+      color: rgb(255, 165, 2);
+      font-weight: 700;
+      font-family: Rubik, sans-serif;
+      margin: 0;
+      text-align: left;
+    }
+
+    .hire-me-btn {
+      background-color: transparent;
+      color: rgb(47, 53, 66);
+      border: 2px solid rgb(47, 53, 66);
+      padding: 15px 25px;
+    }
+
+    .carousel-content {
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 100px;
+      color: rgb(47, 53, 66);
+    }
+
+  }
+
+}
+
+@media (max-width: 998px) {
+  .hire-me-btn {
+    width: 100%;
+  }
+  .works-carousel{
+    padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+  .works-carousel{
+    .carousel-content{
+      i{
+        font-size: 100px!important;
+      }
+    }
+  }
+}

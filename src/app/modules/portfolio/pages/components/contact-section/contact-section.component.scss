@@ -1,0 +1,41 @@
+
+.contact-section-outer{
+  padding: 100px 0;
+  .contact-section-inner{
+    .contact-left {
+      h2{
+        color: rgb(255, 165, 2);
+        font-weight: 900;
+      }
+      .contact-details {
+        .mobile, .email, .address {
+          padding: 10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 20px;
+        }
+      }
+    }
+
+    .contact-right{
+      h2{
+        color: rgb(255, 165, 2);
+        font-weight: 900;
+      }
+      .contact-send-me-btn{
+        color:white;
+        background-color: rgb(255, 165, 2);
+        border: none;
+        padding: 15px 25px;
+      }
+    }
+
+    @media (max-width: 998px) {
+      .contact-right{
+        margin-top: 50px;
+      }
+    }
+
+  }
+}

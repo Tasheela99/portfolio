@@ -1,0 +1,19 @@
+.navbar{
+  background-color: rgb(47, 53, 66);;
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        color: white;
+        letter-spacing: 2px;
+
+
+        &:hover{
+          color: rgb(255, 165, 2);
+        }
+      }
+      .active{
+        color: rgb(255, 165, 2);
+      }
+    }
+  }
+}

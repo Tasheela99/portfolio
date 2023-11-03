@@ -1,0 +1,130 @@
+.hero-section-outer {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  .hero-section-inner {
+    width: 100%;
+    height: auto;
+    .left {
+      color: rgb(47, 53, 66);
+      height: auto;
+
+      .inner-item {
+        display: flex;
+        align-items: self-start;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        gap: 15px;
+
+        h1.greeting {
+          color: rgb(255, 165, 2);
+          font-weight: 700;
+          font-family: Rubik, sans-serif;
+        }
+
+        .name {
+          font-size: 50px;
+          font-weight: 900;
+          font-family: 'Roboto Condensed', sans-serif;
+          line-height: 50px;
+
+          .large-text {
+            color: rgb(255, 165, 2);
+            font-size: 70px;
+          }
+        }
+
+        .position {
+          font-size: 30px;
+        }
+
+        .description {
+          text-align: justify;
+        }
+
+        .button-area {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          .contact-btn {
+            background-color: rgb(255, 165, 2);
+            color: white;
+            border: 1px solid rgb(255, 165, 2);
+            padding: 15px 25px;
+
+            &:hover{
+              background-color:rgba(255, 165, 2,0.4);
+              color: rgb(47, 53, 66);
+              border: none;
+              animation-duration: 1s;
+            }
+          }
+
+          .download-btn {
+            background-color: transparent;
+            color: rgb(47, 53, 66);
+            border: 1px solid rgb(47, 53, 66);
+            padding: 15px 25px;
+
+            &:hover{
+              background-color:rgba(47, 53, 66,0.4);
+              color: white;
+              border: none;
+              animation-duration: 5s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 578px) {
+  .hero-section-outer {
+    .hero-section-inner {
+      .left {
+        .inner-item {
+
+
+          h1.greeting {
+
+          }
+
+          .name {
+            font-size: 40px;
+            font-weight: 900;
+            font-family: 'Roboto Condensed', sans-serif;
+            line-height: 50px;
+
+            .large-text {
+              color: rgb(255, 165, 2);
+              font-size: 50px;
+            }
+          }
+
+          .position {
+            font-size: 30px;
+          }
+
+          .description {
+            text-align: justify;
+          }
+
+          .button-area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .contact-btn, .download-btn {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
