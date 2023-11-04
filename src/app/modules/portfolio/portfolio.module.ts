@@ -9,11 +9,13 @@ import { WorksComponent } from './pages/works/works.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HeroSectionComponent } from './pages/components/hero-section/hero-section.component';
 import { AboutSectionComponent } from './pages/components/about-section/about-section.component';
-import { WorksSectionComponent } from './pages/components/works-section/works-section.component';
 import { HobbiesSectionComponent } from './pages/components/hobbies-section/hobbies-section.component';
 import { ContactSectionComponent } from './pages/components/contact-section/contact-section.component';
 import {CarouselModule} from "ngx-owl-carousel-o";
 import { NavbarComponent } from './pages/components/navbar/navbar.component';
+import { SkillsSectionComponent } from './pages/components/skills-section/skills-section.component';
+import { ProjectsSectionComponent } from './pages/components/projects-section/projects-section.component';
+import { FooterComponent } from './pages/components/footer/footer.component';
 
 
 @NgModule({
@@ -25,10 +27,12 @@ import { NavbarComponent } from './pages/components/navbar/navbar.component';
     ContactComponent,
     HeroSectionComponent,
     AboutSectionComponent,
-    WorksSectionComponent,
     HobbiesSectionComponent,
     ContactSectionComponent,
-    NavbarComponent
+    NavbarComponent,
+    SkillsSectionComponent,
+    ProjectsSectionComponent,
+    FooterComponent
   ],
     imports: [
         CommonModule,

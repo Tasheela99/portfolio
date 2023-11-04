@@ -1,12 +1,14 @@
+
+
 @import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
 @import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
-.works-section-outer {
+.skills-section-outer {
   background-color: white;
   color: rgb(47, 53, 66);
   height: auto;
   padding: 100px 0;
 
-  .works-section-inner{
+  .skills-section-inner{
     .left {
       display: flex;
       align-items: flex-start;
@@ -48,14 +50,14 @@
   .hire-me-btn {
     width: 100%;
   }
-  .works-carousel{
+  .skills-carousel{
     padding: 50px 0;
-    }
+  }
 
 }
 
 @media (max-width: 576px) {
-  .works-carousel{
+  .skills-carousel{
     .carousel-content{
       i{
         font-size: 100px!important;

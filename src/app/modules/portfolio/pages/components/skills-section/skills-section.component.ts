@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import {OwlOptions} from "ngx-owl-carousel-o";
 
 @Component({
-  selector: 'app-works-section',
-  templateUrl: './works-section.component.html',
-  styleUrls: ['./works-section.component.scss']
+  selector: 'app-skills-section',
+  templateUrl: './skills-section.component.html',
+  styleUrls: ['./skills-section.component.scss']
 })
-export class WorksSectionComponent {
-
+export class SkillsSectionComponent {
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
@@ -46,6 +45,5 @@ export class WorksSectionComponent {
     {technology: 'Git', iconClass: 'fab fa-git'},
     {technology: 'GitHub', iconClass: 'fab fa-github'},
   ];
-
 
 }
